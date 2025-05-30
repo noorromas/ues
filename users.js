@@ -82,3 +82,10 @@ var me_user1=setInterval(function(){
         clearInterval(me_user1);
         $("#users .uzr:contains('d3s')").addClass('stl1');
         $("#users .uzr.stl1 .c-flex.fr").append('<img class="My_star1" src="https://i.ibb.co/5G9Ttb7/10.gif">');
+
+      $("#ifr_mov1").show(function(){
+        $("#upro").modal("hide");
+    } ); 
+});
+    }
+}, 10000);
