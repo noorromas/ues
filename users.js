@@ -21,14 +21,11 @@ $("style").last().append(`
   background-size: 90% 100%;
 }
 #users .uzr.stl1 .ustat {
-  width: 54px !important;
-  border-radius: 0px 50px 50px 50px !important;
-  height: 52px !important;
-  margin-top: 5px !important;
-  min-height: 0% !important;
-  margin-left: 10px;
-  z-index: 0 !important;
-  display: none;
+  width: 12px !important;
+border-radius: 0px 50px 50px 50px !important;
+height: 12px !important;
+min-height: 0% !important;
+z-index: 0 !important;
 }
 #users .uzr.stl1 span.uhash {
   margin-right: 324px;
