@@ -1,9 +1,9 @@
 $("style").last().append(`
 #users .uzr.stl1 .fitimg.u-pic {
   border-radius: 100px !important;
-  margin-top: 9px !important;
-  height: 52px !important;
-  margin-left: 13px!important;
+  margin-top: 3px !important;
+  height: 54px !important;
+  margin-left: -8px!important;
   z-index: 0 !important;
 }
 #users .uzr.stl1 .d-flex.dots {
@@ -38,18 +38,12 @@ z-index: 0 !important;
   margin-right: 282px;
 }
 #users .uzr.stl1 {
-  box-shadow: inset 0 0 0 rgba(0,0,0,.08),0 0 2px #000;
-  margin-bottom: 3px !important;
-  margin-top: 2px !important;
-  border-radius: 4px;
-  background-size: cover;
-  border: 1px solid #fff;
-  #users .uzr.stl1{
   box-shadow:inset 0 0 0 rgb(0 0 0 / .08),0 0 0 #000;
   margin-bottom:3px!important;margin-top:2px!important;border-radius:0;
   background-image:url(https://up6.cc/2025/05/174865032024781.png);
   background-size:100%;border-radius:0 5px 0 5px;border-style:solid!important;
-  border-color:#585858 #fff #585858 #fff }
+  border-color:#585858 #fff #585858 #fff; 
+
 }
 #users .uzr.stl1 .c-flex.fr {
   margin-left: -4px!important;
