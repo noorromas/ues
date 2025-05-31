@@ -44,6 +44,12 @@ z-index: 0 !important;
   border-radius: 4px;
   background-size: cover;
   border: 1px solid #fff;
+  #users .uzr.stl1{
+  box-shadow:inset 0 0 0 rgb(0 0 0 / .08),0 0 0 #000;
+  margin-bottom:3px!important;margin-top:2px!important;border-radius:0;
+  background-image:url(https://up6.cc/2025/05/174865032024781.png);
+  background-size:100%;border-radius:0 5px 0 5px;border-style:solid!important;
+  border-color:#585858 #fff #585858 #fff }
 }
 #users .uzr.stl1 .c-flex.fr {
   margin-left: -4px!important;
@@ -89,7 +95,7 @@ var me_user1=setInterval(function(){
          $("#users .uzr.nour1 .c-flex.fr").append('<img class="My_star1" src="https://i.ibb.co/5G9Ttb7/10.gif">');
 	$("#users .uzr.nour1 .c-flex.fr").append('<img class="My_tsor" src="https://i.ibb.co/ThKHx1N/image.png">');
 
-	$("#users .uzr.stl1 .c-flex.fr").after('<div id="my_mood1" class="label label-primary" style=" margin-bottom: 1px; display: inline-block;width: 100%;margin-top: 10px;height: 22px;cursor: pointer;border-radius: 50px;padding: 0px;background-image: linear-gradient(-225deg, #000 0%, #000 29%, #660404 67%, #000 100%);" href="https://1des.net/">قريبــــاً</div>');
+	$("#users .uzr.stl1 .c-flex.fr").after('<div id="my_mood1" class="label label-primary" style=" margin-bottom: 1px; display: inline-block;width: 100%;margin-top: 10px;height: 22px;cursor: pointer;border-radius: 50px;padding: 0px;background-image: linear-gradient(-225deg, #bbb 0%, #bbb 29%, #5a5a5a 67%, #bbb 100%);" href="">قريبــــاً</div>');
        
     
         $("#users .uzr.stl1 span.uhash, #users .uzr.stl1 img.co").hide(); 
