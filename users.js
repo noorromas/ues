@@ -7,7 +7,7 @@ $("style").last().append(`
 #users .uzr.stl1{box-shadow:inset 0 0 0 rgb(0 0 0 / .08),0 0 2px #000;margin-bottom:3px!important;margin-top:2px!important;border-radius:0;border:1px solid #fff;background-image:url(https://up6.cc/2025/05/174865032024781.png);background-size:100%}
 #users .uzr.Sstl1 .d-flex.fl{padding-right:0px!important}
 #users .uzr.stl1 .u-topic{-webkit-text-fill-color:#fff0;margin-left:5px}
-#users .uzr.stl1 .itarr_SShblrmth{width:92px;height:92px;margin-top:-45px;cursor:pointer;margin-left:-47px}
+#users .uzr.stl1 .itarr_sstl1{width:92px;height:92px;margin-top:-45px;cursor:pointer;margin-left:-47px}
 }
 `);
 var me_user1=setInterval(function(){
