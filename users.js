@@ -43,7 +43,11 @@ z-index: 0 !important;
   background-image:url(https://up6.cc/2025/05/174865032024781.png);
   background-size:100%;border-radius:0 5px 0 5px;border-style:solid!important;
   border-color:#585858 #fff #585858 #fff; 
-
+  }
+#upro.uzr.stl1 .light.fl.pro.break {
+    background-image: linear-gradient(225deg,#dfdfdf 0%,#f7f7f7 29%,#f4f4f4 67%,#dbdbdb 100%);
+    background-image: url(https://up6.cc/2025/05/174864089503551.png);
+    background-size: 100%;
 }
 #users .uzr.stl1 .c-flex.fr {
   margin-left: -4px!important;
