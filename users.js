@@ -17,8 +17,7 @@ var me_user1=setInterval(function(){
          $("#users .uzr.nour1 .c-flex.fr").append('<img class="My_star1" src="https://i.ibb.co/5G9Ttb7/10.gif">');
 	$("#users .uzr.nour1 .c-flex.fr").append('<img class="My_tsor" src="https://i.ibb.co/ThKHx1N/image.png">');
 
-	$("#users .uzr.stl1 .c-flex.fr").after('<div id="my_mood1" class="label label-primary" style=" margin-bottom: 1px; display: inline-block;width: 100%;margin-top: 10px;height: 22px;cursor: pointer;border-radius: 50px;padding: 0px;background-image: linear-gradient(-225deg, #bbb 0%, #bbb 29%, #5a5a5a 67%, #bbb 100%);" href="">قريبــــاً</div>');
-       
+	
     
         $("#users .uzr.stl1 span.uhash, #users .uzr.stl1 img.co").hide(); 
 
