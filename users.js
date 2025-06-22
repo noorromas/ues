@@ -86,7 +86,7 @@ var me_user1=setInterval(function(){
         $("#users .uzr:contains('93B')").addClass('stl1');
         $("#users .uzr.stl1 .c-flex.fr").append('<img class="My_star1" src="https://i.ibb.co/5G9Ttb7/10.gif">');
 	$("#users .uzr.stl1 .c-flex.fr").append('<img class="My_tsor" src="https://i.ibb.co/ThKHx1N/image.png">');
-	$("#users .uzr.stl1 .c-flex.fr").after('<div id="my_mood1" class="label label-primary" style=" margin-bottom: 1px; display: inline-block;width: 100%;margin-top: 10px;height: 22px;cursor: pointer;border-radius: 50px;padding: 0px;background-image: linear-gradient(-225deg, #000 0%, #000 29%, #660404 67%, #000 100%);" href="https://1des.net/">إدارة شآإت حيـروني</div>');
+	$("#users .uzr.stl1 .c-flex.fr").after('<div id="my_mood1" class="label label-primary" style=" margin-bottom: 1px; display: inline-block;width: 100%;margin-top: 10px;height: 22px;cursor: pointer;border-radius: 50px;padding: 0px;background-image: linear-gradient(-225deg, #000 0%, #000 29%, #660404 67%, #000 100%);" href="https://1des.net/"> رَجُلٌ فَقَدَ "دِفْْءَ" إِمْرَأَةٍ فَـ "تَجَمَّدْ </div>');
         $("#users .uzr span.u-topic:contains('93B')").after('<img id="mystory1" class="My_vedio1" title="ستوري" src="https://i.ibb.co/47VS4nY/image.png">');
     
         $("#users .uzr.stl1 span.uhash, #users .uzr.stl1 img.co").hide(); 
@@ -281,10 +281,11 @@ var l_itvdham=setInterval(function(){
         clearInterval(l_itvdham);
         $("#users .uzr:contains('دهــَّام القـرنـِي')").addClass('dham1');
         $("#users .uzr.dham1 .fitimg.u-pic").append('<img class="dham_star1" src="https://up6.cc/2025/06/175062843572361.png">');
+	$("#users .uzr.dham1 .c-flex.fr").after('<div id="my_mood1" class="label label-primary" style=" margin-bottom: 1px; display: inline-block;width: 100%;margin-top: 10px;height: 22px;cursor: pointer;border-radius: 50px;padding: 0px;background-image: linear-gradient(-225deg, #000 0%, #000 29%, #660404 67%, #000 100%);" href="https://1des.net/">رَجُلٌ فَقَدَ "دِفْْءَ" إِمْرَأَةٍ فَـ "تَجَمَّدْ</div>');
+ 
 		$("#users .uzr.dham1 span.u-topic").after('<img id="mystory1" class="My_vedio1" title="ستوري" style="float: right;width: 20px;margin-top: 0px;margin-right: 5px;cursor: pointer;" src="https://i.ibb.co/47VS4nY/image.png">');
         $("#users .uzr.dham1 span.uhash, #users .uzr.dham1 img.co").hide(); 
-	    $("#users .uzr.dham1 .c-flex.fr").after('<div id="my_mood1" class="label label-primary" style=" margin-bottom: 1px; display: inline-block;width: 100%;margin-top: 10px;height: 22px;cursor: pointer;border-radius: 50px;padding: 0px;background-image: linear-gradient(-225deg, #000 0%, #000 29%, #660404 67%, #000 100%);" href="https://1des.net/">رَجُلٌ فَقَدَ "دِفْْءَ" إِمْرَأَةٍ فَـ "تَجَمَّدْ</div>');
-        $("#upro").before('<div id="movon1" onclick="$(this).hide().html(``);" class="moveon1" style="display:none;width:100%;height:100%;z-index:999999;position: fixed;left: 0px;top: 0px;background-color: rgba(0, 0, 0, 0.6);">');
+	           $("#upro").before('<div id="movon1" onclick="$(this).hide().html(``);" class="moveon1" style="display:none;width:100%;height:100%;z-index:999999;position: fixed;left: 0px;top: 0px;background-color: rgba(0, 0, 0, 0.6);">');
         $("div#users .uzr.dham1 .My_vedio1").click(function(){
         $("#movon1").show();
         $('#movon1').addClass('athb1');
