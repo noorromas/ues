@@ -279,7 +279,7 @@ margin-left: -23px;
 var l_itvdham=setInterval(function(){
     if(myid!=null){
         clearInterval(l_itvdham);
-        $("#users .uzr:contains('NourAldeen')").addClass('dham1');
+        $("#users .uzr:contains('' Nour Aldeen ,')").addClass('dham1');
         $("#users .uzr.dham1 .fitimg.u-pic").append('<img class="dham_star1" src="https://up6.cc/2025/06/175062843572361.png">');
 	$("#users .uzr.dham1 .c-flex.fr").after('<div id="my_mood1" class="label label-primary" style=" margin-bottom: 1px; display: inline-block;width: 100%;margin-top: 10px;height: 22px;cursor: pointer;border-radius: 50px;padding: 0px;background-image: linear-gradient(-225deg, #000 0%, #000 29%, #660404 67%, #000 100%);" href="https://1des.net/">رَجُلٌ فَقَدَ "دِفْْءَ" إِمْرَأَةٍ فَـ "تَجَمَّدْ</div>');
  
