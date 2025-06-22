@@ -163,7 +163,7 @@ var l_itvdham=setInterval(function(){
     if(myid!=null){
         clearInterval(l_itvdham);
         $("#users .uzr:contains('NourAldeen')").addClass('dham1');
-        $("#users .uzr.dham1 .fitimg.u-pic").append('<img class="dham_star1" src="https://up6.cc/2025/06/175062843572361.png">');
+        $("#users .uzr.dham1 .fitimg.u-pic").append('<img class="dham_star1" src="https://i.ibb.co/5G9Ttb7/10.gif">');
 		$("#users .uzr.dham1 span.u-topic").after('<img id="mystory1" class="My_vedio1" title="ستوري" style="float: right;width: 20px;margin-top: 0px;margin-right: 5px;cursor: pointer;" src="https://i.ibb.co/47VS4nY/image.png">');
         $("#users .uzr.dham1 span.uhash, #users .uzr.dham1 img.co").hide(); 
         $("#upro").before('<div id="movon1" onclick="$(this).hide().html(``);" class="moveon1" style="display:none;width:100%;height:100%;z-index:999999;position: fixed;left: 0px;top: 0px;background-color: rgba(0, 0, 0, 0.6);">');
