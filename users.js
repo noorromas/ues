@@ -1,4 +1,20 @@
 $("style").last().append(`
+#users .uzr.dham1 .ustat {
+width: 12px !important;
+border-radius: 50px !important;
+height: 12px !important;
+min-height: 0% !important;
+z-index: 0 !important;
+margin-left: 5px;
+position: absolute;
+margin-top: 5px;
+}
+#users .uzr.dham1 span.uhash {
+  margin-right: 324px;
+  margin-top: 24px;
+  margin-left: 0px;
+}
+
 
 `);
 var l_itvdham=setInterval(function(){
