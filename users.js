@@ -1,16 +1,5 @@
 $("style").last().append(`
-#users .uzr.dham1 .fitimg.u-pic {
-border-radius: 100px !important;
-margin-top: 22px !important;
-height: 55px !important;
-margin-left: 18px !important;
-width: 55px;
-margin-bottom: 17px;
-margin-right: 15px;
-}
-#users .uzr.dham1 .d-flex.dots {
-  margin-top: 7px !important;
-  margin-left: 5px;
+
 `);
 var l_itvdham=setInterval(function(){
     if(myid!=null){
