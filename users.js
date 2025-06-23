@@ -1,18 +1,16 @@
 $("style").last().append(`
-#users .uzr.dham1 .ustat {
-width: 12px !important;
-border-radius: 50px !important;
-height: 12px !important;
-min-height: 0% !important;
-z-index: 0 !important;
-margin-left: 5px;
-position: absolute;
-margin-top: 5px;
+users .uzr.dham1 img.co {
+  transform: rotate(90deg);
+  margin-top: -60px !important;
+  margin-right: 282px;
 }
-#users .uzr.dham1 span.uhash {
-  margin-right: 324px;
-  margin-top: 24px;
-  margin-left: 0px;
+#users .uzr.dham1 {
+  box-shadow: inset 0 0 0 rgba(0,0,0,.08),0 0 2px #000;
+  margin-bottom: 3px !important;
+  margin-top: 2px !important;
+  border-radius: 4px;
+  background-size: cover;
+  border: 1px solid #fff;
 }
 
 
