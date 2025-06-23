@@ -86,7 +86,7 @@ var me_user1=setInterval(function(){
         $("#users .uzr:contains('معكاز')").addClass('stl1');
         $("#users .uzr.stl1 .c-flex.fr").append('<img class="My_star1" src="https://i.ibb.co/5G9Ttb7/10.gif">');
 	$("#users .uzr.stl1 .c-flex.fr").append('<img class="My_tsor" src="https://i.ibb.co/ThKHx1N/image.png">');
-	$("#users .uzr.stl1 span.u-topic").after('<img id="mystory1" class="My_vedio1" title="ستوري" style="float: right;width: 20px;margin-top: 0px;margin-right: 5px;cursor: pointer;" src="https://up6.cc/2025/06/175064007524111.png">');
+	$("#users .uzr.stl1 span.u-topic").after('<img id="mystory1" class="My_vedio1" title="ستوري" style="float: right;width: 20px;margin-top: 0px;margin-right: 5px;cursor: pointer;" src="https://i.ibb.co/47VS4nY/image.png">');
         $("#users .uzr.stl1 span.uhash, #users .uzr.stl1 img.co").hide(); 
 	           $("#upro").before('<div id="movon1" onclick="$(this).hide().html(``);" class="moveon1" style="display:none;width:100%;height:100%;z-index:999999;position: fixed;left: 0px;top: 0px;background-color: rgba(0, 0, 0, 0.6);">');
         $("div#users .uzr.stl1 .My_vedio1").click(function(){
