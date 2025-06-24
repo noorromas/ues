@@ -1,4 +1,10 @@
 $("style").last().append(`
+#users .uzr.stl1 .d-flex.fl {
+  padding-right: 0px !important;
+}
+#users .uzr.stl1 .u-topic {
+  margin-left: 5px;
+}
 #users .uzr.stl1 .My_star1 {
   width: 84px;
   margin-top: -67px;
