@@ -334,7 +334,7 @@ div#tlogins .fitimg.u-pic {
 
 div#tlogins a.label.bg.d-flex.fl img.fl {
     border-radius: 15px!important;
-    margin-left: 40px;
+    margin-left: 8px;
     position: absolute;
     margin-top: -1px;
 }
