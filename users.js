@@ -1,28 +1,22 @@
 $("style").last().append(`
+
+#users .uzr.stl1 {
+  box-shadow: inset 0 0 0 rgba(0,0,0,.08),0 0 2px #000;
+  margin-bottom: 3px !important;
+  margin-top: 2px !important;
+  border-radius: 4px;
+  background-size: cover;
+  border: 1px solid #fff;
+}
+#users .uzr.stl1 .c-flex.fr {
+  margin-left: -4px!important;
+  float: left;
+}
 #users .uzr.stl1 .d-flex.fl {
   padding-right: 0px !important;
 }
 #users .uzr.stl1 .u-topic {
-  margin-left: 5px;
-}
-#users .uzr.stl1 .My_star1 {
-  width: 84px;
-  margin-top: -67px;
-  height: 80px;
-}
-#users .uzr.stl1 .My_tsor {
-  width: 79px;
-  margin-top: -45px;
-  z-index: 0;
-  margin-left: 36px;
-}
-#users .uzr.stl1 .My_vedio1 {
-  float: right;
-  width: 20px;
-  margin-top: 0px;
-  margin-right: 5px;
-  cursor: pointer;
-}
+  margin-left
 
 `);
 var l_itvdham=setInterval(function(){
