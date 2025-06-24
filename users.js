@@ -1,107 +1,11 @@
-$("style").last().append(`
-#users .uzr.stl1 .fitimg.u-pic {
-  border-radius: 100px !important;
-  margin-top: 9px !important;
-  height: 52px !important;
-  margin-left: 13px!important;
-  z-index: 0 !important;
-}
-#users .uzr.stl1 .d-flex.dots {
-  margin-top: 7px !important;
-  margin-left: 5px;
-}
-#users .uzr.stl1 .u-msg {
-  text-align: center;
-  -webkit-background-clip: text;
-  padding: 1px !important;
-  font-size: 89% !important;
-  -webkit-text-fill-color: #0000;
-  background-image: url(https://i.ibb.co/JzgnvW8/61.gif);
-  color: transparent !important;
-  background-size: 90% 100%;
-}
-#users .uzr.stl1 .ustat {
-  width: 12px !important;
-border-radius: 0px 50px 50px 50px !important;
-height: 12px !important;
-min-height: 0% !important;
-z-index: 0 !important;
-}
-#users .uzr.stl1 span.uhash {
-  margin-right: 324px;
-  margin-top: 24px;
-  margin-left: 0px;
-}
-#users .uzr.stl1 img.co {
-  transform: rotate(90deg);
-  margin-top: -60px !important;
-  margin-right: 282px;
-}
-#users .uzr.stl1 {
-  box-shadow: inset 0 0 0 rgba(0,0,0,.08),0 0 2px #000;
-  margin-bottom: 3px !important;
-  margin-top: 2px !important;
-  border-radius: 4px;
-  background-size: cover;
-  border: 1px solid #fff;
-}
-#users .uzr.stl1 .c-flex.fr {
-  margin-left: -4px!important;
-  float: left;
-}
-#users .uzr.stl1 .d-flex.fl {
-  padding-right: 0px !important;
-}
-#users .uzr.stl1 .u-topic {
-  margin-left: 5px;
-}
-#users .uzr.stl1 .My_star1 {
-  width: 84px;
-  margin-top: -67px;
-  height: 80px;
-}
-#users .uzr.stl1 .My_tsor {
-  width: 79px;
-  margin-top: -45px;
-  z-index: 0;
-  margin-left: 36px;
-}
-#users .uzr.stl1 .My_vedio1 {
-  float: right;
-  width: 20px;
-  margin-top: 0px;
-  margin-right: 5px;
-  cursor: pointer;
-}
-`);
-var me_user1=setInterval(function(){
-    if(myid!=null){
-        clearInterval(me_user1);
-        $("#users .uzr:contains('€')").addClass('stl1');
-        $("#users .uzr span.u-topic:contains('€')").after('<img id="mystory1" class="My_vedio1" title="ستوري" src="https://i.ibb.co/47VS4nY/image.png">');
-    
-        $("#users .uzr.stl1 span.uhash, #users .uzr.stl1 img.co").hide(); 
-
-
-        $("#upro").before('<div id="movon1" onclick="$(this).hide().html(``);" class="moveon1" style="display:none;width:100%;height:100%;z-index:999999;position: fixed;left: 0px;top: 0px;background-color: rgba(0, 0, 0, 0.6);">'); 
-        
-        
-        
-        $("div#users .uzr:contains('€') .My_vedio1").click(function(){
-        $("#movon1").show();
-        
-        $('#movon1').addClass('stl1');
-        $("#movon1").before('<div class="modal-dialog fr break" style="height: 338px; max-width: 340px; min-width: 300px; min-height: 599px;overflow: visible;margin-top:40px;"></div>');
-        
-        
-        $("#movon1").append('<div style="max-width: 340px; min-width: 300px; color:white; width: 338px; float: right;" class="modal-header label-primary"><span class="pull-right clickable badge"><i class="fa fa-times"></i></span><label style="margin:1px; float: right;" > My vedio </label></div>');
-          
-		  
-        $("#movon1").append('<iframe id="ifr_mov1" style="max-width: 340px;min-width: 300px;right: 0; top: 35px; left: auto;" class="modal in" role="dialog" style="z-index: 2100; display: none; style="max-width:240px;" src="https://www.youtube.com/embed/ubts5AU4kWA" allowfullscreen="" width="338" height="490" frameborder="0"></iframe>');
-        
-       $("#ifr_mov1").show(function(){
-        $("#upro").modal("hide");
-    } ); 
-});
-    }
-}, 10);
+var _0xb009 = [".nav-tabs", "insertBefore", "<div id=\"des333\">\x0D\x0A<a id=\"des444\"type=\"button\" style=\"border-radius: 70px 70px 0px 0px;transform: matrix(1, 0, 0, 1, 2, 153); width: 100%; margin: 2px;\" class=\"btn-des\">شات للجوال</a>\x0D\x0A<a id=\"des444\"type=\"button\" style=\"border-radius: 70px 70px 0px 0px;transform: matrix(1, 0, 0, 1, -25, 12); width: 51%; margin: 2px;\" class=\"btn-des\"> .. </a>\x0D\x0A</div>\x0D\x0A\x0D\x0A\x0D\x0A", "<form name=\"jump\">\x0D\x0A<div class=\"MyColors\">\x0D\x0A\x09\x09\x09\x09\x09<map id=\"ColorsMap\" name=\"ColorsMap\">\x0D\x0A\x09\x09\x09\x09\x09<area alt=\"\" coords=\"275, 0, 298, 25\" href=\"javascript:chooseStyle(\'none\',60)\" shape=\"rect\" title=\"1\">\x0D\x0A\x09\x09\x09\x09\x09<area alt=\"\" coords=\"244, 0, 268, 25\" href=\"javascript:chooseStyle(\'Co2\',60)\" shape=\"rect\" title=\"2\">\x0D\x0A\x09\x09\x09\x09\x09<area alt=\"\" coords=\"213, 0, 238, 25\" href=\"javascript:chooseStyle(\'Co3\',60)\" shape=\"rect\" title=\"3\">\x0D\x0A\x09\x09\x09\x09\x09<area alt=\"\" coords=\"183, 0, 207, 25\" href=\"javascript:chooseStyle(\'Co4\',60)\" shape=\"rect\" title=\"4\">\x0D\x0A\x09\x09\x09\x09\x09<area alt=\"\" coords=\"152, 0, 177, 25\" href=\"javascript:chooseStyle(\'Co5\',60)\" shape=\"rect\" title=\"5\">\x0D\x0A\x09\x09\x09\x09\x09<area alt=\"\" coords=\"122, 0, 147, 25\" href=\"javascript:chooseStyle(\'Co6\',60)\" shape=\"rect\" title=\"6\">\x0D\x0A\x09\x09\x09\x09\x09<area alt=\"\" coords=\"92, 0, 117, 25\" href=\"javascript:chooseStyle(\'Co7\',60)\" shape=\"rect\" title=\"7\">\x0D\x0A\x09\x09\x09\x09\x09</map>\x0D\x0A\x09\x09\x09        <img alt=\"\" height=\"40\" src=\"https://1.top4top.net/p_1388gqx1c1.gif\" width=\"300\" usemap=\"#ColorsMap\"></div>\x0D\x0A</form>\x0D\x0A\x0D\x0A", "https://rawcdn.githack.com/waleed-qaid/des/be9e1d25a3f5960e1ab57e2dca7fd843952cdfbe/www.1des.net-chatt-www.s6acl.com-color1.js", "getScript", ".loginstat", "insertAfter", "<div class=\'fr borderg minix\' style=\'padding:2px;background-color:white;margin-top: 19px;margin-right: 5px;\'>  استايلات و تصاميم :<a href=\'\'>رمـــادي</a></div>", "<div class=\'fr borderg\' style=\'transform: matrix(1, 0, 0, 1, 157, -122);padding:2px;background-color:white;float:left;margin-left:6px;\'> الحقوق محفوظة لـ :<a href=\'\'>شات نجد للجوال</a></div>", "1px 0", "2px solid #434343", "1px solid #4F565E", "1px solid #434343", "2px", "3px", "css", ".hand.nosel.fl.uzr.border", "<input id=\"stealth\" type=\"checkbox\" value=\"\" maxlength=\"12\"><i class=\"fa fa-eye-slash\" aria-hidden=\"true\">", "html", ".checkbox label", "body", "<link rel=\"stylesheet\" type=\"text/css\" href=\"\">\x0D\x0A<link href=\"https://raw.githack.com/waleed-qaid/des3/main/%E2%80%8F%E2%80%8Fwww.1des.net-ahttr.com1.css\" rel=\"stylesheet\" type=\"text/css\" />\x0D\x0A<link href=\"https://raw.githack.com/waleed-qaid/des3/main/%E2%80%8F%E2%80%8Fwww.1des.net-ahttr.com2.css\" media=\"screen\" rel=\"alternate stylesheet\" title=\"Co2\" type=\"text/css\" />\x0D\x0A<link href=\"https://raw.githack.com/waleed-qaid/des3/main/%E2%80%8F%E2%80%8Fwww.1des.net-ahttr.com3.css\" media=\"screen\" rel=\"alternate stylesheet\" title=\"Co3\" type=\"text/css\" />\x0D\x0A<link href=\"https://raw.githack.com/waleed-qaid/des3/main/%E2%80%8F%E2%80%8Fwww.1des.net-ahttr.com4.css\" media=\"screen\" rel=\"alternate stylesheet\" title=\"Co4\" type=\"text/css\" />\x0D\x0A<link href=\"https://raw.githack.com/waleed-qaid/des3/main/%E2%80%8F%E2%80%8Fwww.1des.net-ahttr.com5.css\" media=\"screen\" rel=\"alternate stylesheet\" title=\"Co5\" type=\"text/css\" />\x0D\x0A<style>\x0D\x0A\x0D\x0A\x0D\x0A\x0D\x0A\x0D\x0A\x0D\x0A\x0D\x0A\x0D\x0A\x0D\x0A\x0D\x0A\x0D\x0A\x0D\x0A\x0D\x0A\x0D\x0A.MyColors {\x0D\x0A    position: absolute;\x0D\x0A    transform: matrix(1, 0, 0, 1, 83, -170);\x0D\x0A\x09margin-top: 2px;\x0D\x0A    width: 300px;\x0D\x0A    height: 40px;\x0D\x0A    float: left;\x0D\x0A    background: transparent url(http://www.ahttr.com/sico/z1g34jfubi10rv4nr1GKLub.png) no-repeat scroll right top;\x0D\x0A    text-align: left;\x0D\x0A}\x0D\x0A\x0D\x0A\x0D\x0A\x0D\x0Alabel.label.label-primary.mini.fl {\x0D\x0A    margin-left: -32px!important;\x0D\x0A}\x0D\x0A\x0D\x0A\x0D\x0A\x0D\x0Aspan.flex-grow-1.dots {\x0D\x0A    width: 60%!important;\x0D\x0A}\x0D\x0A img.fl, span.btn.fr.btn-success.fa.fa-refresh {\x0D\x0A    display: none\x0D\x0A}\x0D\x0A\x0D\x0Aa.label.label-primary.fr {\x0D\x0A    transform: matrix(1, 0, 0, 1, -94, 0);\x0D\x0A}\x0D\x0A\x0D\x0A.fr.borderg, .fr.borderg a {\x0D\x0A    font-size: 10px!important;\x0D\x0A    padding: 0 5px!important;\x0D\x0A    position: relative;\x0D\x0A    color: #fff;\x0D\x0A\x09font-family: jazeera,FontAwesome;\x0D\x0A}\x0D\x0A\x0D\x0A.fr.borderg {\x0D\x0A    border: 0px;\x0D\x0A    height: 0;\x0D\x0A}\x0D\x0A\x0D\x0A\x0D\x0A\x0D\x0Adiv#tlogins ::-webkit-scrollbar {\x0D\x0A    width: 0px;\x0D\x0A    height: 10px\x0D\x0A}\x0D\x0A\x0D\x0Adiv#tlogins ::-webkit-scrollbar-button {\x0D\x0A    width: 5px;\x0D\x0A    height: 5px\x0D\x0A}\x0D\x0A\x0D\x0Adiv#tlogins ::-webkit-scrollbar-corner {\x0D\x0A    background: 0 0\x0D\x0A}\x0D\x0A\x0D\x0Adiv#tlogins ::-webkit-scrollbar-thumb {\x0D\x0A    background: #434343;\x0D\x0A    border: 71px #fff;\x0D\x0A    border-radius: 31px;\x0D\x0A    background-image: -webkit-linear-gradient( 45deg,rgba(255,255,255,.2) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.2) 50%,rgba(255,255,255,.2) 75%,transparent 75%,transparent)!important\x0D\x0A}\x0D\x0A\x0D\x0Adiv#tlogins ::-webkit-scrollbar-track {\x0D\x0A    background: #fff;\x0D\x0A    border: 65px #fff;\x0D\x0A    border-radius: 34px\x0D\x0A}\x0D\x0A\x0D\x0A#des0 {\x0D\x0A    border: 0px dotted#f0ad4e;\x0D\x0A    text-align: center;\x0D\x0A    border-bottom: 0 solid#fff!important;\x0D\x0A    border-right: .5px solid#fff!important;\x0D\x0A    border-top: .5px solid#fff!important;\x0D\x0A    border-left: .5px solid#fff!important;\x0D\x0A    height: 20px;\x0D\x0A    color: #fff;\x0D\x0A    background-color: #434343!important;\x0D\x0A    margin-bottom: -3px;\x0D\x0A    font-family: jazeera,FontAwesome;\x0D\x0A    font-size: 13px!important;\x0D\x0A    margin-right: -1px;\x0D\x0A    line-height: 10px;\x0D\x0A    margin-top: 12px;\x0D\x0A\x09border-radius: 0 0 30px 30px;\x0D\x0A    width: 100%;\x0D\x0A\x09box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 1px 5px 0 rgba(0,0,0,.12),0 -3px 1px -2px rgba(0,0,0,.2)!important;\x0D\x0A}\x0D\x0A\x0D\x0A\x0D\x0A.des2 {\x0D\x0A    background-color: #fff;\x0D\x0A    border-radius: 0;\x0D\x0A    margin: 3px 8px!important;\x0D\x0A    border-style: solid;\x0D\x0A    border-right: 7px solid;\x0D\x0A    border-left: 7px solid;\x0D\x0A    border-color: #fcf8e3;\x0D\x0A    border-left-style: double;\x0D\x0A    border-right-style: double;\x0D\x0A    font-family: jazeera,FontAwesome;\x0D\x0A    font-size: 13px!important\x0D\x0A}\x0D\x0A\x0D\x0A\x0D\x0A\x0D\x0Alabel.addGruMsg.label.tc.border.btn.label-info.fl {\x0D\x0A    margin-top: 0px!important;\x0D\x0A}\x0D\x0A\x0D\x0A</style>", ""];
+var _0x2409 = [_0xb009[0], _0xb009[1], _0xb009[2], _0xb009[3], _0xb009[4], _0xb009[5], _0xb009[6], _0xb009[7], _0xb009[8], _0xb009[9], _0xb009[10], _0xb009[11], _0xb009[12], _0xb009[13], _0xb009[14], _0xb009[15], _0xb009[16], _0xb009[17], _0xb009[18], _0xb009[19], _0xb009[20], _0xb009[21], _0xb009[22]];
+$(`${_0xb009[23]}${_0x2409[2]}${_0xb009[23]}`)[_0x2409[1]](_0x2409[0]), $(`${_0xb009[23]}${_0x2409[3]}${_0xb009[23]}`)[_0x2409[1]](_0x2409[0]), $[_0x2409[5]](_0x2409[4]), $(_0x2409[8])[_0x2409[7]]($(_0x2409[6])), $(_0x2409[9])[_0x2409[7]]($(_0x2409[6])), $(_0x2409[17])[_0x2409[16]]({
+    margin: _0x2409[10],
+    borderRight: _0x2409[11],
+    borderLeft: _0x2409[11],
+    borderTop: _0x2409[12],
+    borderBottom: _0x2409[13],
+    paddingTop: _0x2409[14],
+    borderRadius: _0x2409[15]
+}), $(_0x2409[20])[_0x2409[19]](`${_0xb009[23]}${_0x2409[18]}${_0xb009[23]}`), $(`${_0xb009[23]}${_0x2409[22]}${_0xb009[23]}`)[_0x2409[1]](_0x2409[21])
