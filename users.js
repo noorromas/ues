@@ -81,8 +81,6 @@ var me_user1=setInterval(function(){
     if(myid!=null){
         clearInterval(me_user1);
         $("#users .uzr:contains('€')").addClass('stl1');
-        $("#users .uzr.stl1 .c-flex.fr").append('<img class="My_star1" src="https://i.ibb.co/5G9Ttb7/10.gif">');
-	$("#users .uzr.stl1 .c-flex.fr").append('<img class="My_tsor" src="https://i.ibb.co/ThKHx1N/image.png">');
         $("#users .uzr span.u-topic:contains('€')").after('<img id="mystory1" class="My_vedio1" title="ستوري" src="https://i.ibb.co/47VS4nY/image.png">');
     
         $("#users .uzr.stl1 span.uhash, #users .uzr.stl1 img.co").hide(); 
