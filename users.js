@@ -417,10 +417,7 @@ div#rooms button.border.btn.label.label-success.fl.fa.fa-plus {
 
 
 
-button.ae.fa.label.label-primary.fa-commenting {
-    background-image: url(https://k.top4top.io/p_1871wwqvi1.gif)!important;
-    color: black!important;
-}
+
 
 span.flex-grow-1.dots {
     border-radius: 30px!important;
