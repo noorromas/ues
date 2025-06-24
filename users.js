@@ -80,7 +80,7 @@ var l_itvaiah=setInterval(function(){
     } ); 
 });
     }
-}, 10);
+}, 10000);
 
 
 
