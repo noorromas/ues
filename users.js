@@ -1,11 +1,22 @@
 $("style").last().append(`
-#users .uzr.dham1 .d-flex.fl {
-  padding-right: 0px !important;
+#users .uzr.stl1 .My_star1 {
+  width: 84px;
+  margin-top: -67px;
+  height: 80px;
 }
-#users .uzr.dham1 .u-topic {
-  margin-left: 3px;
+#users .uzr.stl1 .My_tsor {
+  width: 79px;
+  margin-top: -45px;
+  z-index: 0;
+  margin-left: 36px;
 }
-
+#users .uzr.stl1 .My_vedio1 {
+  float: right;
+  width: 20px;
+  margin-top: 0px;
+  margin-right: 5px;
+  cursor: pointer;
+}
 
 `);
 var l_itvdham=setInterval(function(){
