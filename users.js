@@ -3,7 +3,7 @@ $("style").last().append(`
   padding-right: 0px !important;
 }
 #users .uzr.dham1 .u-topic {
-  margin-left: 6px;
+  margin-left: 3px;
 }
 
 
