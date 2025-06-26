@@ -351,7 +351,7 @@ div#tlogins {
 }
 
 img.co {
-    transform: rotate(100deg);
+    transform: rotate(314deg);
     margin-top: 5px!important;
 }
 
