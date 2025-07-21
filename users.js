@@ -42,6 +42,19 @@ $("style").last().append(`
     background-color: #2525255c;
     border: 1px solid #efefef;
 }
+
+#users. img.ustat {
+    width: 13px !important;
+    height: 13px !important;
+    min-height: 0% !important;
+    margin-right: 0;
+    z-index: 999999;
+    border-radius: 2px;
+    margin-left: 1px;
+    margin-top: 1px;
+    border: 1px solid #fff;
+    box-shadow: inset 0 0 0 rgb(0 0 0 / 8%), 0 0 2px #f0c01f;
+}
 .fitimg.u-pic {
     border: 1px solid #fff;
     box-shadow: inset 0 0 0 rgba(0,0,0,.08), 0 0 2px #a21f1f;
