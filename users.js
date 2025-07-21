@@ -12,7 +12,7 @@ $("style").last().append(`
   border: 1px solid #ecdce41c;
   background-size: cover;
 }
-#d2 .label-primary{background-color:#b77c9a!important}#d2 .bg{background-color:#b77c9a!important}#d2 .uzr.d-flex.mm.hmsg{border-radius: 0 10px 0 10px;background-color:#bcbcbc !important}#d0 .nosel.fl.bg.{background-color:#b77c9a!important;  }#users span.uhash{text-transform:uppercase;background-image:linear-gradient(-225deg,#7b7b7b 0,#737373 29%,#ebebeb 67%,#3600ff 100%);background-size:220% auto;-webkit-background-clip:text;-webkit-text-fill-color:transparent;animation:2s linear infinite textclip;display:inline-block}
+#d2 .label-primary{background-color:#b77c9a!important}#d2 .bg{background-color:#b77c9a!important}#d2 .uzr.d-flex.mm.hmsg{border-radius: 0 10px 0 10px;background-color:#faf0e6 !important}#d0 .nosel.fl.bg.{background-color:#b77c9a!important;  }#users span.uhash{text-transform:uppercase;background-image:linear-gradient(-225deg,#7b7b7b 0,#737373 29%,#ebebeb 67%,#3600ff 100%);background-size:220% auto;-webkit-background-clip:text;-webkit-text-fill-color:transparent;animation:2s linear infinite textclip;display:inline-block}
 #users .mini.u-msg{text-align:center;}#dpnl.bg{background-image:linear-gradient(225deg,#ce96b3 0%,#d091b1 29%,#eec6da 67%,#b77c9a 100%) */}#rooms .corner.fa.fa-user.label.uc.fa-microphone.label-danger{border-radius:5px!important}
 #rooms .label-primary {
         border-radius: 10 0px 10 0px!important;
