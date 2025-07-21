@@ -114,9 +114,11 @@ input {
 }
 .tc {
       border-radius: 10 0px 10 0px!important;
-  border: 1px solid #ecdce4;
+  border: 1px solid #000;
 }
-
+.light {
+    background-color: #a4a4a4;
+}
 .fl.borderg {
       border-radius: 10 0px 10 0px!important;
   border: 1px solid #bfbfbf;
