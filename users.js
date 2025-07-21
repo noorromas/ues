@@ -117,12 +117,13 @@ input {
   border: 1px solid #000;
 }
 .light {
-    background-color: #a4a4a4;
+    background-color: #5e5e5e;
 }
 .fl.borderg {
       border-radius: 10 0px 10 0px!important;
   border: 1px solid #bfbfbf;
-}
+
+}   
 .uhtml {
   border-radius: 0 10px 0 10px;
 }
