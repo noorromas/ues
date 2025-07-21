@@ -43,18 +43,7 @@ $("style").last().append(`
     border: 1px solid #efefef;
 }
 
-#users. img.ustat {
-    width: 13px !important;
-    height: 13px !important;
-    min-height: 0% !important;
-    margin-right: 0;
-    z-index: 999999;
-    border-radius: 2px;
-    margin-left: 1px;
-    margin-top: 1px;
-    border: 1px solid #fff;
-    box-shadow: inset 0 0 0 rgb(0 0 0 / 8%), 0 0 2px #f0c01f;
-}
+
 .fitimg.u-pic {
     border: 1px solid #fff;
     box-shadow: inset 0 0 0 rgba(0,0,0,.08), 0 0 2px #a21f1f;
@@ -72,6 +61,20 @@ $("style").last().append(`
         border-radius: 10 0px 10 0px!important;
     border: 1px solid #ecdce447;
 }
+
+#users. img.ustat {
+    width: 13px !important;
+    height: 13px !important;
+    min-height: 0% !important;
+    margin-right: 0;
+    z-index: 999999;
+    border-radius: 2px;
+    margin-left: 1px;
+    margin-top: 1px;
+    border: 1px solid #fff;
+    box-shadow: inset 0 0 0 rgb(0 0 0 / 8%), 0 0 2px #f0c01f;
+}
+
 #upro .light.fl.pro.break{background-image: linear-gradient(225deg,#dfdfdf 0%,#f7f7f7 29%,#f4f4f4 67%,#dbdbdb 100%);}
 #mic #muteall {
     border-radius: 0 10px 0 10px;
@@ -113,6 +116,7 @@ input {
       border-radius: 10 0px 10 0px!important;
   border: 1px solid #ecdce4;
 }
+
 .fl.borderg {
       border-radius: 10 0px 10 0px!important;
   border: 1px solid #bfbfbf;
