@@ -56,7 +56,7 @@ $("style").last().append(`
         border-radius: 10 0px 10 0px!important;
     border: 1px solid #ecdce447;
 }
-#d2{background-color:#efefef !important;}
+#d2{background-color:#ffffff  !important;}
 #room .tablebox.d-flex.footer.fl.light {
         border-radius: 10 0px 10 0px!important;
     border: 1px solid #ecdce447;
