@@ -75,7 +75,7 @@ $("style").last().append(`
     box-shadow: inset 0 0 0 rgb(0 0 0 / 8%), 0 0 2px #f0c01f;
 }
 
-#upro .light.fl.pro.break{background-image: linear-gradient(225deg,#dfdfdf 0%,#f7f7f7 29%,#f4f4f4 67%,#dbdbdb 100%);}
+#upro .light.fl.pro.break{background-image: linear-gradient(355deg, #ddd 0%, #c8c8c8 29%, #c8c8c8 67%, #c8c8c8 100%);}
 #mic #muteall {
     border-radius: 0 10px 0 10px;
     margin-top: 1px;
