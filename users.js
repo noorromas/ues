@@ -121,7 +121,7 @@ input {
 }
 .fl.borderg {
       border-radius: 10 0px 10 0px!important;
-  border: 1px solid #000000;
+  border: 1px solid #ffffff;
 
 }   
 .uhtml {
